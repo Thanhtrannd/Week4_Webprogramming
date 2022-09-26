@@ -45,7 +45,7 @@ function AppendData(ShowName, ShowImg, ShowSummaryObj) {
   let summary = ShowSummaryObj;
 
   childDiv.appendChild(header);
-  childDiv.innerHTML = summary;
+  childDiv.innerHTML += summary;
   parentDiv.appendChild(img);
   parentDiv.appendChild(childDiv);
   MainBody.appendChild(parentDiv);
