@@ -20,7 +20,7 @@ body {
   display: block;
 }
 
-.show-info {
+.show-data .show-info {
   width: 100%;
   padding: 10px;
 }
