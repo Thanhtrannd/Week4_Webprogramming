@@ -37,7 +37,7 @@ function AppendData(ShowName, ShowImg, ShowSummaryObj) {
   img.src = ShowImg;
 
   let childDiv = document.createElement("div");
-  childDiv.className = "show-list";
+  childDiv.className = "show-info";
 
   let header = document.createElement("h1");
   header.innerText = ShowName;
