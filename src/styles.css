@@ -15,7 +15,7 @@ body {
   box-shadow: 5px 10px #888888;
 }
 
-.show-data > h1 {
+.show-data h1 {
   text-align: center;
 }
 
