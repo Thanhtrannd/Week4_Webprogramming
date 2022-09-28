@@ -1,6 +1,9 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
   background-color: #eceff1;
-  font-family: sans-serif;
 }
 
 .show-data {
@@ -31,6 +34,16 @@ body {
   }
 
   .show-info {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    margin: auto;
+  }
+  .show-info p {
+    text-align: center;
     padding: 10px;
   }
 }
