@@ -15,17 +15,17 @@ body {
   box-shadow: 5px 10px #888888;
 }
 
-.show-data h1 {
+.show-data > h1 {
   text-align: center;
 }
 
-.show-data img {
+.show-data > img {
   display: block;
 }
 
 .show-info {
   width: 100%;
-  padding: 10px;
+  padding: 0px;
 }
 
 @media screen and (min-width: 800px) {
@@ -42,7 +42,7 @@ body {
   img {
     margin: auto;
   }
-  .show-info p {
+  .show-info > p {
     text-align: center;
     padding: 10px;
   }
